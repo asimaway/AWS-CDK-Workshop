@@ -1,0 +1,1393 @@
+{
+  "version": "9.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkWorkshopStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkWorkshopStack.template.json"
+      },
+      "metadata": {
+        "/CdkWorkshopStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8f",
+              "id": "1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8f",
+              "packaging": "zip",
+              "sourceHash": "1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8f",
+              "s3BucketParameter": "AssetParameters1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8fS3BucketC4A51FDE",
+              "s3KeyParameter": "AssetParameters1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8fS3VersionKey6622634B",
+              "artifactHashParameter": "AssetParameters1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8fArtifactHash62E7D73D"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.ts:437:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:171:23)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:16:18)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681",
+              "id": "ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681",
+              "packaging": "zip",
+              "sourceHash": "ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681",
+              "s3BucketParameter": "AssetParametersca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681S3Bucket8D949544",
+              "s3KeyParameter": "AssetParametersca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681S3VersionKeyEFE93F18",
+              "artifactHashParameter": "AssetParametersca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681ArtifactHashF3868D5D"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.ts:437:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:171:23)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:38:21)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandlerServiceRole11EF7C63",
+            "trace": [
+              "new Role (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:327:18)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:563:31)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:16:18)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler2E4FBA4D",
+            "trace": [
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:625:35)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:16:18)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8f/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8fS3BucketC4A51FDE",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:16:18)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8f/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8fS3VersionKey6622634B",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:16:18)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8f/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1ef5a0b2f3423aa366d93ec67d3664d57d91255a9110183c43589ac066769d8fArtifactHash62E7D73D",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:16:18)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681S3Bucket8D949544",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:38:21)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681S3VersionKeyEFE93F18",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:38:21)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/ca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersca3eccc24c488dec9a89af5f5d51e4995df9b38d0124369a6442bdd4b1d2b681ArtifactHashF3868D5D",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:665:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:145:40)",
+              "AssetCode.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:277:20)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:583:29)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:38:21)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/Hits/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHits7AAEBF80",
+            "trace": [
+              "new Table (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:1103:18)",
+              "new HitCounter (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\hitcounter.ts:21:19)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:23:29)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerServiceRoleD45002B8",
+            "trace": [
+              "new Role (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:327:18)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:563:31)",
+              "new HitCounter (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\hitcounter.ts:27:20)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:23:29)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerServiceRoleDefaultPolicy1487A60A",
+            "trace": [
+              "new Policy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:368:28)",
+              "Function.addToPrincipal (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:168:61)",
+              "Table.combinedGrant (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:917:29)",
+              "Table.grantReadWriteData (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:692:17)",
+              "new HitCounter (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\hitcounter.ts:40:11)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:23:29)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerDAEA7B37",
+            "trace": [
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:625:35)",
+              "new HitCounter (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\hitcounter.ts:27:20)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:23:29)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointEEF1FD8F",
+            "trace": [
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:714:22)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointCloudWatchRoleC3C64E0F",
+            "trace": [
+              "new Role (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:327:18)",
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:497:18)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:731:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointAccountB8304247",
+            "trace": [
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:502:22)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:731:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeployment318525DA7a02bafcf1f33a692d15312adb602478",
+            "trace": [
+              "new Deployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.ts:75:21)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:530:32)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:734:10)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeploymentStageprodB78BEEA0",
+            "trace": [
+              "new Stage (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.ts:240:22)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:540:30)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:734:10)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpoint8024A810",
+            "trace": [
+              "LambdaRestApi._configureDeployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:545:7)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:734:10)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpointproxy39E2174E",
+            "trace": [
+              "new Resource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:446:22)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:518:5)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/ApiPermission.CdkWorkshopStackEndpoint018E8349.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionCdkWorkshopStackEndpoint018E8349ANYproxy747DCA52",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:63:18)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/ApiPermission.Test.CdkWorkshopStackEndpoint018E8349.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionTestCdkWorkshopStackEndpoint018E8349ANYproxy41939001",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:71:20)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYC09721C5",
+            "trace": [
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:215:22)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/ANY/ApiPermission.CdkWorkshopStackEndpoint018E8349.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionCdkWorkshopStackEndpoint018E8349ANYE84BEB04",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:63:18)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "RootResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/ANY/ApiPermission.Test.CdkWorkshopStackEndpoint018E8349.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionTestCdkWorkshopStackEndpoint018E8349ANYB6CC1B64",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:71:20)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "RootResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANY485C938B",
+            "trace": [
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:215:22)",
+              "RootResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:28:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/Rendered/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterRenderedServiceRole254DB4EA",
+            "trace": [
+              "new Role (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:327:18)",
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:563:31)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:38:21)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/Rendered/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterRenderedServiceRoleDefaultPolicy9ADB8C83",
+            "trace": [
+              "new Policy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:368:28)",
+              "Function.addToPrincipal (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:168:61)",
+              "Table.combinedGrant (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:917:29)",
+              "Table.grantReadData (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:631:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:49:17)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/Rendered/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterRendered9C783E45",
+            "trace": [
+              "new Function (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:625:35)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:38:21)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpoint5A0EF326",
+            "trace": [
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:714:22)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointCloudWatchRole87B94D6A",
+            "trace": [
+              "new Role (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:327:18)",
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:497:18)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:731:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointAccount0B75E76A",
+            "trace": [
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:502:22)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:731:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointDeployment1CE7C57615fe4c294585f18a4ed474d2b246124b",
+            "trace": [
+              "new Deployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.ts:75:21)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:530:32)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:734:10)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointDeploymentStageprodF3901FC7",
+            "trace": [
+              "new Stage (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.ts:240:22)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:540:30)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:734:10)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointCA1B1E4B",
+            "trace": [
+              "LambdaRestApi._configureDeployment (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:545:7)",
+              "new RestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:734:10)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointproxy2F4C239F",
+            "trace": [
+              "new Resource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:446:22)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:518:5)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointproxyANYApiPermissionCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANYproxy252C605A",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:63:18)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.Test.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointproxyANYApiPermissionTestCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANYproxy1404CEF4",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:71:20)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointproxyANYFF4B8F5B",
+            "trace": [
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:215:22)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointANYApiPermissionCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANY00F849F4",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:63:18)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "RootResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.Test.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointANYApiPermissionTestCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANY9EC7D814",
+            "trace": [
+              "Function.addPermission (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaIntegration.bind (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:71:20)",
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:197:36)",
+              "RootResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ViewHitCounterViewerEndpointANY66F2285B",
+            "trace": [
+              "new Method (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:215:22)",
+              "RootResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new TableViewer (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\cdk-dynamo-table-viewer\\lib\\table-viewer.ts:51:18)",
+              "new CdkWorkshopStack (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\lib\\cdk-workshop-stack.ts:34:4)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\bin\\cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:22:24)",
+              "C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:140:5",
+              "visit (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:201:5)",
+              "visit (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:197:5)",
+              "injectMetadataResources (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:131:3)",
+              "Object.synthesize (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:188:23)",
+              "process.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\source-map-support\\source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:31:27)",
+              "C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:140:5",
+              "visit (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:201:5)",
+              "visit (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:197:5)",
+              "injectMetadataResources (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:131:3)",
+              "Object.synthesize (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:188:23)",
+              "process.<anonymous> (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (C:\\Users\\asimr\\Desktop\\AWS Projects\\cdk-workshop\\node_modules\\source-map-support\\source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
