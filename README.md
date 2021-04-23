@@ -22,3 +22,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * Author and use your own custom construct (HitCounter)
 * Consume a construct from another npm module (cdk-dynamo-table-viewer)
 * Use the AWS Lambda, API Gateway and DynamoDB AWS construct libraries
+
+## End Result
+
+![Result](https://user-images.githubusercontent.com/47226768/115934182-5b590400-a488-11eb-8555-8619998c3db0.PNG)
