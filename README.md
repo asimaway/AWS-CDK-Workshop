@@ -13,3 +13,12 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+## Skills Leanred in Workshop
+
+* Create a new CDK project in TypeScript using cdk init
+* Add resources to your CDK application stack
+* Use cdk diff and cdk deploy to deploy your app to an AWS environment
+* Author and use your own custom construct (HitCounter)
+* Consume a construct from another npm module (cdk-dynamo-table-viewer)
+* Use the AWS Lambda, API Gateway and DynamoDB AWS construct libraries
